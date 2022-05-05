@@ -1,5 +1,7 @@
 # JiaBar-Chat-App-Server
-Nodejs / GraphQL / GrqphQL-ws / Apollo-Server / MySQL / Prisma
+- Nodejs 
+- GraphQL / GrqphQL-ws / Apollo-Server
+- MySQL / Prisma
 
 Steps:
 1. Clone the project
