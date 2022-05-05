@@ -6,8 +6,10 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
-  url      = env("DATABASE_URL")
+  // provider = "mysql"
+  // url      = env("DATABASE_URL")
+  provider = "postgresql"
+  url      = env("DATABASE_URL_PROD")
 }
 
 // *以 MySQL 為例 (Relation database)
